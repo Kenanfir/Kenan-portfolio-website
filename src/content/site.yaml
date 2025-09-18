@@ -1,0 +1,254 @@
+site:
+  name: "Kenan Firmansyah"
+  tagline: "Portfolio Showcase"
+  themeColor: "#1A1A1A"
+  resumeUrl: "https://kenan.serverkn.com/wp-content/uploads/2025/07/CV-2025-V1-2-Page.pdf"
+  avatar: "https://kenan.serverkn.com/wp-content/uploads/2024/01/CV_ProfilePic-297x300.jpg"
+
+about:
+  heading: "Hello, I'm Kenan!"
+  paragraphs:
+    - "I am a Game Programmer with a strong focus on Artificial Intelligence and Gameplay Programming. When needed, I also step in as a Game Designer to add that extra creative touch. I've worked with Unreal Engine and Unity and have been active in game development since late 2020."
+    - "Here you'll find a showcase of projects I've published or collaborated on, plus some ongoing projects. I aim for solutions that are efficient, reusable, and easy to understand—balanced against real timelines."
+    - "I occasionally build non-game tech projects, too. If you're interested in collaborating, feel free to reach out—I'm always open to new opportunities."
+  cta:
+    label: "Contact Me!!"
+    href: "#contact"
+
+featured:
+  label: "FEATURED"
+  youtubeId: "msL-IpjbRNo"
+  title: "Last Rite (Portfolio Website Demo)"
+
+projects:
+  label: "PROJECTS"
+  groups:
+    - year: "ON_GOING"
+      items:
+        - title: "Group Session Payment Tracker"
+          role: "iOS DEVELOPER"
+          meta: { team: 4, time: "+1 Weeks", tech: "iOS" }
+          summary: "Manage costs and payments for recurring activities (sports, classes). Create sessions with flexible pricing, add participants, auto-calc per-person costs, track who paid vs. owes."
+        - title: "Tona"
+          role: "iOS DEVELOPER"
+          meta: { team: 3, time: "+4 Weeks", tech: "iOS" }
+          summary: "Keeps Instagram feeds visually consistent by auto-applying tone/color grading learned from past posts so new photos match your grid."
+    - year: "2025"
+      items:
+        - title: "Pet Jam (2025)"
+          link: "https://kenan.serverkn.com/petjam/"
+          role: "iOS DEVELOPER"
+          meta: { team: 5, time: "+5 Weeks", tech: "iOS" }
+          youtubeId: "vbAcI0mYJcc"
+          summary: "Apple Watch fitness gamification (Tamagotchi-like). Uses WatchKit, SpriteKit, HealthKit, SwiftData to motivate calorie burn."
+        - title: "Rantify (2025)"
+          link: "https://kenan.serverkn.com/randtify/"
+          role: "iOS DEVELOPER"
+          meta: { team: 1, time: "+3 Weeks", tech: "iOS" }
+          youtubeId: "ElrEUpE-_yA"
+          summary: "First iOS app: gamified random activities. Built for the first Apple Developer Academy challenge."
+        - title: "Last Rite (2024 - 2025)"
+          link: "https://kenan.serverkn.com/lastrite/"
+          role: "GAME PROGRAMMER"
+          meta: { team: 3, time: "6 Months", tech: "UE5" }
+          youtubeId: "msL-IpjbRNo"
+          summary: "Multiplayer exorcism horror—think Mortuary Assistant × Phasmophobia."
+    - year: "2024"
+      items:
+        - title: "Fisherman Manager (2024)"
+          link: "https://kenan.serverkn.com/xanthous/"
+          role: "GAME PROGRAMMER & DESIGNER"
+          meta: { team: 2, time: "4 Months", tech: "UE5" }
+          youtubeId: "jEh9ddNSLk0"
+          summary: "Management sim for DDA research—combines Q-Learning + Fuzzy Logic to tune difficulty."
+        - title: "Xanthous (2023 - 2024)"
+          link: "https://kenan.serverkn.com/xanthous/"
+          role: "GAME PROGRAMMER"
+          meta: { team: 5, time: "10 Months", tech: "UE4" }
+          youtubeId: "R7RcHgE8FMI"
+          summary: "VR horror (thesis). Implemented AI with Fuzzy Logic, Monte Carlo, Behavior Tree, etc."
+        - title: "Coblos Son (2024)"
+          link: "https://kenan.serverkn.com/coblos-son/"
+          role: "GAME PROGRAMMER"
+          meta: { team: 4, time: "38 Hours", tech: "Unity" }
+          youtubeId: "dDXWPKiIFb8"
+          summary: "Meme-ish election mini-game for Global Game Jam 2024 Surabaya."
+    - year: "2023"
+      items:
+        - title: "Echo Remnant (2023)"
+          link: "https://kenan.serverkn.com/echo-remnant/"
+          role: "GAME PROGRAMMER & GAME DESIGNER"
+          meta: { team: 2, time: "40 Hours", tech: "UE4" }
+          youtubeId: "ap-CN9X1LHM"
+          summary: "Hardcore stealth using UE4 AI Perception; made for Garena GameJam."
+        - title: "F.U.R.Y (2023)"
+          link: "https://kenan.serverkn.com/f-u-r-y/"
+          role: "GAME PROGRAMMER"
+          meta: { team: 3, time: "48 Hours", tech: "UE5" }
+          youtubeId: "_PCgHxttVJM"
+          summary: "First-person horror-action for Candela GameJam."
+        - title: "Slime Sage (2023)"
+          link: "https://kenan.serverkn.com/slime-sage/"
+          role: "GAME PROGRAMMER"
+          meta: { team: 3, time: "1 Week", tech: "Unity" }
+          youtubeId: "aMS11Pzritw"
+          summary: "Movement-satisfying game inspired by The Pathless (Mix & Jam pack)."
+        - title: "Home Server (2023)"
+          link: "https://kenan.serverkn.com/home-server/"
+          role: "PERSONAL PROJECT"
+          meta: { team: 1, time: "3 Months", tech: "Proxmox" }
+          youtubeId: "XFxLKTrspi0"
+          summary: "Self-hosted services to learn infrastructure and tooling."
+        - title: "Priority (2023)"
+          link: "https://kenan.serverkn.com/priority/"
+          role: "APP DEVELOPER"
+          meta: { team: 2, time: "4 Months", tech: "Flutter" }
+          youtubeId: "DZLw_t2_WQU"
+          summary: "Prototype store-visit booking app using GCP/Firebase."
+    - year: "2022"
+      items:
+        - title: "Bed Time (2022)"
+          link: "https://kenan.serverkn.com/bed-time/"
+          role: "GAME PROGRAMMER & GAME DESIGNER"
+          meta: { team: 6, time: "48 Hours", tech: "Unity" }
+          youtubeId: "FF_vFRcN8AU"
+          summary: "Side-scrolling survival horror for IGGI GameJam+ 2022 (unfinished but formative)."
+        - title: "Don't Get Hunted (2022)"
+          link: "https://kenan.serverkn.com/dont-get-hunted/"
+          role: "GAME PROGRAMMER & GAME DESIGNER"
+          meta: { team: 2, time: "1 Week", tech: "Unity" }
+          youtubeId: "4I9NwBpB0BI"
+          summary: "Top-down multiplayer horror using Photon networking."
+
+experiences:
+  label: "EXPERIENCES"
+  groups:
+    - year: "On-Going"
+      items:
+        - org: "Apple Developer Academy"
+          title: "APPLE OS DEVELOPER"
+          summary: "Apple environment learning end-to-end: research, design, teamwork, respectful comms, and coding across Apple OS."
+    - year: "2025"
+      items:
+        - org: "Ecosoft Interactive (2025)"
+          title: "GAME DEVELOPER (UNITY)"
+          summary: "Mobile arcade game (remote). QA + iOS dev, bug triage, gameplay feel, UI feedback, and testing/build cadence."
+        - org: "Starpixel Studio (2024 - 2025)"
+          title: "GAME DEVELOPER (UNREAL ENGINE)"
+          summary: "Lead gameplay/systems on undisclosed multiplayer horror. Learned to prioritize strong early architecture for netcode."
+    - year: "2024"
+      items:
+        - org: "Google Play x Unity (2024)"
+          title: "GAME DEVELOPER"
+          summary: "7-month training: Unity programmer track + sessions on launching/succeeding on Google Play."
+        - org: "Brackeys Game Jam 2024.2"
+          title: "GAME DEVELOPER"
+          summary: "Two games in 7 days (UE + Unity) across two teams, simultaneously. Main programmer (Unity) + AI programmer (UE)."
+        - org: "ScoreSpace Jam #31 (2024)"
+          title: "GAME DEVELOPER"
+          summary: "96-hour jam (theme: the floor is lava). Solo Unity dev to prep for Google x Unity test."
+        - org: "Ryan Laley Games Jam (2024)"
+          title: "GAME DEVELOPER"
+          summary: "30-day jam (theme: fishing minigame). Programmer/designer (UE5) to refresh UE fundamentals."
+        - org: "GMTK Game Jam 2024"
+          title: "GAME DEVELOPER"
+          summary: "4-day jam (Built To Scale). Multiplayer tic-tac-toe with a twist (Unity)."
+        - org: "Global Game Jam Surabaya (2024)"
+          title: "GAME DEVELOPER"
+          summary: "38-hour jam (Make Me Laugh). Unity programmer in a 4-person team; fun scope, some feature debates."
+    - year: "2023"
+      items:
+        - org: "Garena GameJam (2023)"
+          title: "GAME DEVELOPER"
+          summary: "40-hour offline jam (Replayability). UE4 stealth game in a 2-person team."
+        - org: "Candela Game Jam #1 (2023)"
+          title: "GAME DEVELOPER"
+          summary: "48-hour online jam (Unify Miraculous Goals). UE5 project with strong visuals."
+        - org: "GAMELOFT Game Designer Connect 3.0 (2023)"
+          title: "GAME DEVELOPER"
+          summary: "One-week online event (One Room). Unity dev in a 3-person team; big growth in tech + teamwork."
+        - org: "Wirausaha Merdeka (2023)"
+          title: "BUSINESS (APP DEVELOPMENT)"
+          summary: "Gov-sponsored startup program. Designed/built a prototype app; learned go-to-market thinking for games."
+        - org: "PT. eBdesk (2023)"
+          title: "DATA SCIENTIST (Intern)"
+          summary: "6-month internship: scraping, analysis, visualization. Tools: Selenium, Gephi, Tableau. Python stack."
+    - year: "2022"
+      items:
+        - org: "IGGI GameJam (2022)"
+          title: "GAME DEVELOPER"
+          summary: "40-hour online jam. First jam (Unity) in a 6-person team—chaotic but transformative."
+        - org: "Valorant Team PENS ESPORT (2022)"
+          title: "ESPORT"
+          summary: "Player on campus team; 5 tournaments, best finish 3rd of 7. Good run!"
+
+education:
+  label: "EDUCATION"
+  groups:
+    - year: "2024"
+      items:
+        - org: "EEPIS (2020 - 2024)"
+          title: "BACHELOR DEGREE"
+          summary: "B.Eng in Computer Engineering (Game Technology). Player psychology, full game dev roles, industry review/journalism, and more."
+
+publications:
+  label: "PUBLICATION"
+  groups:
+    - year: "2024"
+      items:
+        - title: "Dynamic Level of Difficulties Using Q-Learning and Fuzzy Logic"
+          venue: "IEEE Access"
+          date: "Sep 12, 2024"
+          link: "https://ieeexplore.ieee.org/document/10676966"
+          summary: "DDA system combining fuzzy logic + Q-learning improves engagement; session length +35%, player effectiveness +28%."
+        - title: "Enhancing Serious Game Experience Through In-Game Radio Using CARS"
+          venue: "INASS Int. Journal of Intelligent Engineering and Systems"
+          date: "Sep 2, 2024"
+          link: "https://inass.org/wp-content/uploads/2024/06/2024103126-1.pdf"
+          summary: "Context-aware recommender adapts music to weather/time/player status; hybrid deep model up to F1 0.71."
+        - title: "Dynamic Day and Night Cycle Impact in a Serious VR Game"
+          venue: "ICVR 2024"
+          link: "https://ieeexplore.ieee.org/document/10868976/metrics#metrics"
+          summary: "10-minute compressed day/night cycle boosted immersion by ~25% and strategic depth."
+
+skills:
+  legend:
+    - { label: "Professional", bar: "◻️◻️◻️◻️" }
+    - { label: "Advanced", bar: "◻️◻️◻️◾️" }
+    - { label: "Intermediate", bar: "◻️◻️◾️◾️" }
+    - { label: "Beginner", bar: "◻️◾️◾️◾️" }
+  categories:
+    - name: "Coding"
+      items:
+        - { name: "C++", level: "Advanced" }
+        - { name: "C#", level: "Advanced" }
+        - { name: "Swift", level: "Intermediate" }
+        - { name: "UE Blueprints", level: "Professional" }
+        - { name: "Python", level: "Advanced" }
+        - { name: "Dart", level: "Intermediate" }
+        - { name: "JavaScript", level: "Intermediate" }
+    - name: "Software"
+      groups:
+        - name: "Source Control"
+          items:
+            - { name: "GIT", level: "Professional" }
+        - name: "Game Engines"
+          items:
+            - { name: "UE4", level: "Advanced" }
+            - { name: "UE5", level: "Advanced" }
+            - { name: "Unity", level: "Advanced" }
+        - name: "3D Tools"
+          items:
+            - { name: "Blender", level: "Beginner" }
+        - name: "OS"
+          items:
+            - { name: "Windows", level: "Professional" }
+            - { name: "Linux", level: "Advanced" }
+            - { name: "macOS", level: "Intermediate" }
+
+contact:
+  label: "CONTACT"
+  # If there's an email you want exposed, add it here later.
+  actions:
+    - { label: "Resume", href: "https://kenan.serverkn.com/wp-content/uploads/2025/07/CV-2025-V1-2-Page.pdf", external: true }
+    - { label: "Back to top", href: "#top", external: false }

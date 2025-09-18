@@ -1,0 +1,19 @@
+# Caddy redirects for legacy WordPress paths
+# Add these to your Caddyfile
+
+# Project redirects (if using /projects/ prefix)
+/echo-remnant/ /projects/echo-remnant/ 301
+/slime-sage/ /projects/slime-sage/ 301
+/f-u-r-y/ /projects/f-u-r-y/ 301
+
+# WordPress content redirects
+/wp-content/uploads/old-cv.pdf /cv/CV-2024.pdf 301
+/wp-content/uploads/ /uploads/ 301
+
+# WordPress admin and system redirects (optional - redirect to 404)
+/wp-admin/ /404 301
+/wp-login.php /404 301
+/wp-json/ /404 301
+
+# XML sitemap redirect
+/sitemap.xml /sitemap-index.xml 301
