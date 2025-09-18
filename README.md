@@ -1,13 +1,13 @@
 # Kenan Firmansyah - Portfolio Website
 
-A blazing-fast static portfolio website built with Astro + Tailwind CSS, replacing the previous WordPress Elementor site with modern performance and developer experience.
+A modern portfolio website built with Next.js + Tailwind CSS, replacing the previous WordPress Elementor site with modern performance and developer experience.
 
 ## 🚀 Features
 
-- **Static Site Generation (SSG)** with Astro for optimal performance
+- **Server-Side Rendering (SSR)** with Next.js for optimal performance
 - **Tailwind CSS** for utility-first styling with custom design tokens
 - **TypeScript** for type safety and better developer experience
-- **Content Collections** for structured project management
+- **Component-Based Architecture** for maintainable code
 - **Responsive Design** optimized for all devices
 - **SEO Optimized** with meta tags, sitemaps, and structured data
 - **Performance Focused** targeting Lighthouse scores: LCP <1.5s, CLS ~0
@@ -15,12 +15,12 @@ A blazing-fast static portfolio website built with Astro + Tailwind CSS, replaci
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Astro 4.0
+- **Framework**: Next.js 14.2.5
 - **Styling**: Tailwind CSS 3.4
 - **Language**: TypeScript
-- **Content**: Markdown with Astro Content Collections
-- **Images**: @astrojs/image with Sharp optimization
-- **Deployment**: Static site (compatible with Coolify, Vercel, Netlify)
+- **Content**: YAML-based content management
+- **Images**: Next.js Image optimization
+- **Deployment**: Docker container (compatible with Coolify, Vercel, Netlify)
 
 ## 📁 Project Structure
 
@@ -30,22 +30,23 @@ A blazing-fast static portfolio website built with Astro + Tailwind CSS, replaci
 │   ├── fonts/            # Self-hosted fonts (Inter Variable)
 │   ├── cv/              # Resume/CV files
 │   └── favicon.svg       # Site favicon
+├── app/                  # Next.js App Router
+│   ├── globals.css       # Global styles
+│   ├── layout.tsx        # Root layout
+│   ├── page.tsx          # Homepage
+│   └── test/             # Test pages
 ├── src/
-│   ├── components/       # Reusable Astro components
-│   │   ├── Header.astro
-│   │   ├── Footer.astro
-│   │   ├── ProjectCard.astro
-│   │   └── Prose.astro
-│   ├── layouts/          # Page layouts
-│   │   └── BaseLayout.astro
-│   ├── content/          # Content collections
-│   │   ├── projects/     # Project markdown files
-│   │   └── config.ts     # Content schema
-│   └── pages/            # Astro pages
-│       ├── index.astro   # Homepage
-│       ├── contact.astro # Contact page
-│       ├── resume.astro  # Resume page
-│       └── [slug].astro  # Dynamic project pages
+│   ├── components/       # Reusable React components
+│   │   ├── Header.tsx
+│   │   ├── ProjectCard.tsx
+│   │   ├── SkillMeter.tsx
+│   │   └── YouTubeEmbed.tsx
+│   ├── content/          # Content management
+│   │   └── site.yaml     # Site configuration
+│   ├── lib/              # Utility functions
+│   │   └── content.ts    # Content loading
+│   └── types/            # TypeScript types
+│       └── site.ts       # Site type definitions
 ├── deploy/               # Deployment configurations
 │   ├── redirects-caddy.txt
 │   └── redirects-nginx.conf
@@ -132,10 +133,16 @@ Edit `tailwind.config.cjs` to customize:
 1. **Connect Repository**: Link your GitHub repository to Coolify
 2. **Build Configuration**:
    - Build Command: `npm ci && npm run build`
-   - Publish Directory: `dist`
-   - Node Version: `18`
-3. **Environment Variables**: None required for static build
+   - Publish Directory: `.next/standalone` (for Next.js standalone output)
+   - Node Version: `18` (specified in `.nvmrc`)
+   - Use Custom Dockerfile: `Yes`
+3. **Environment Variables**: None required for Next.js build
 4. **Domain Setup**: Configure your domain and SSL
+
+**Important**: The repository includes:
+- `nixpacks.toml` - Disables Nixpacks auto-detection
+- `.nvmrc` - Specifies Node.js version 18
+- `Dockerfile` - Custom Next.js Docker configuration
 
 ### Docker Deployment
 
@@ -144,7 +151,7 @@ Edit `tailwind.config.cjs` to customize:
 docker build -t kenan-portfolio .
 
 # Run container
-docker run -p 80:80 kenan-portfolio
+docker run -p 3000:3000 kenan-portfolio
 ```
 
 ### Manual Deployment
