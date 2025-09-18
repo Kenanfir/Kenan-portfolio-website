@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/kenanfirmansyah/Documents/Projects/Kenan's Website/Kenan-portfolio-website/app/layout\":[\"static/media/3703c28dcda155b1-s.p.woff2\",\"static/media/904be59b21bd51cb-s.p.woff2\",\"static/media/630c17af355fa44e-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
